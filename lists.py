@@ -35,3 +35,9 @@ while True:
 average = sum(numlist)/len(numlist)
 print('Average:',average)
 
+# Strings and lists
+# Split on white spaces by default
+thing= 'a lot'
+print(thing.split())
+thing='a;lot'
+print(thing.split(';'))
